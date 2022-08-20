@@ -119,18 +119,23 @@ const List<Room> upcomingRoomsList = [
     name: 'Clubhouse Turns 1',
     time: '9:00 PM',
   ),
+  Room(
+    club: 'Nicks ClubHouse',
+    name: 'Clubhouse dark Humour',
+    time: '9:00 PM',
+  ),
 ];
 
 final List<Room> roomsList = [
   Room(
-    club: 'Social Society',
+    club: 'Social Society 👋',
     name: 'Welcome to Clubhouse 🎉 (Walkthrough with Q&A)',
     speakers: (List<User>.from(_allUsers)..shuffle()).getRange(0, 4).toList(),
     followedBySpeakers: List<User>.from(_allUsers)..shuffle(),
     others: List<User>.from(_allUsers)..shuffle(),
   ),
   Room(
-    club: 'Good Time',
+    club: 'Good Time 🎉',
     name: '⏰ A Very Important Person on Good Time',
     speakers: (List<User>.from(_allUsers)..shuffle()).getRange(0, 4).toList(),
     followedBySpeakers: List<User>.from(_allUsers)..shuffle(),
@@ -139,6 +144,13 @@ final List<Room> roomsList = [
   Room(
     club: 'NYU girls roasting tech guys',
     name: 'love and bitcoin edition 💰',
+    speakers: (List<User>.from(_allUsers)..shuffle()).getRange(0, 4).toList(),
+    followedBySpeakers: List<User>.from(_allUsers)..shuffle(),
+    others: List<User>.from(_allUsers)..shuffle(),
+  ),
+  Room(
+    club: 'Music #PHONK #LO-FI ',
+    name: 'HEAD KNOCKING AND BOPPING MUSIC CRF 💰',
     speakers: (List<User>.from(_allUsers)..shuffle()).getRange(0, 4).toList(),
     followedBySpeakers: List<User>.from(_allUsers)..shuffle(),
     others: List<User>.from(_allUsers)..shuffle(),

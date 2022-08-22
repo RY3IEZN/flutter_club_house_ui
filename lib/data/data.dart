@@ -129,7 +129,7 @@ const List<Room> upcomingRoomsList = [
 final List<Room> roomsList = [
   Room(
     club: 'Social Society 👋',
-    name: 'Welcome to Clubhouse 🎉 (Walkthrough with Q&A)',
+    name: 'Welcome to Clubhouse🎉(Walkthrough with Q&A)',
     speakers: (List<User>.from(_allUsers)..shuffle()).getRange(0, 4).toList(),
     followedBySpeakers: List<User>.from(_allUsers)..shuffle(),
     others: List<User>.from(_allUsers)..shuffle(),
